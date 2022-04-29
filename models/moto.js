@@ -8,7 +8,7 @@ var formatDate = function () {
 var motoSchema = new mongoose.Schema({
   _id: { type: Number, required: true },
   Marque: { type: String, required: true },
-  Moto: { type: String, required: true },
+  Modele: { type: String, required: true },
   Datesortie: {
     type: Date,
     required: true,
